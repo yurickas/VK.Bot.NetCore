@@ -5,3 +5,4 @@
 /.vs
 /Vk.Bot.NetCore/.vs/Vk.Bot.NetCore/v16
 /Vk.Bot.NetCore/Vk.Bot.NetCore/obj
+/Vk.Bot.NetCore/Vk.Bot.NetCore/bin/Debug/netstandard2.0
