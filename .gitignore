@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Vk.Bot.NetCore/.vs/Vk.Bot.NetCore/v16
+/Vk.Bot.NetCore/Vk.Bot.NetCore/obj
