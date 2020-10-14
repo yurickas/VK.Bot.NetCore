@@ -1,1 +1,3 @@
 # VK.Bot.NetCore
+
+Comming soon....
