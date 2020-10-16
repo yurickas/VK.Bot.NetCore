@@ -9,7 +9,7 @@ namespace Vk.Bot.NetCore.Middleware
 {
     public static class VkBotClient
     {
-        public static IVkBotApi GetVkBotClient(VkBotConfiguration conf)
+        public static IVkBotApi RegisterVkBotClient(VkBotConfiguration conf)
         {
             var client = new HttpClient();
             client.BaseAddress = new Uri("https://api.vk.com/method");

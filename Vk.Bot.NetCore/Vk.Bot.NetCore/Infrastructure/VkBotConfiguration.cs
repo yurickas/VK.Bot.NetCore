@@ -6,5 +6,6 @@
         public string Group { get; set; }
         public string ResponseKey { get; set; }
         public string SecretKey { get; set; }
+        public double VersionApi { get; set; }
     }
 }
