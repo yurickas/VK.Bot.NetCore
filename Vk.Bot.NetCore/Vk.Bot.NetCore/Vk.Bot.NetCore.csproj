@@ -3,8 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Version>1.0.9</Version>
+    <Version>1.0.10</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>SDK for VK API</Description>
+    <PackageTags>VK Bot c#</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
