@@ -8,5 +8,8 @@ namespace Vk.Bot.NetCore.Api
     {
         [Get("/messages.send")]
         Task<ApiResponse<dynamic>> SendMessageAsync([Query] VkSendMessageParameters param);
+
+        [Get("/messages.send")]
+        Task<ApiResponse<dynamic>> PostMessageAsync([Body] VkSendMessageParameters param);
     }
 }
