@@ -30,7 +30,7 @@ namespace Vk.Bot.NetCore.Middleware
                 opt.Key = section[nameof(opt.Key)];
                 opt.ResponseKey = section[nameof(opt.ResponseKey)];
                 opt.SecretKey = section[nameof(opt.SecretKey)];
-                opt.VersionApi = double.Parse(section[nameof(opt.VersionApi)]);
+                opt.VersionApi = double.Parse(section[nameof(opt.VersionApi)], System.Globalization.NumberStyles.AllowDecimalPoint);
             });
 
             return services;
